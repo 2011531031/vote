@@ -11,12 +11,12 @@
 @interface ViewController : UIViewController
 
 {
-    UILabel *label;
-    UILabel *label1;
-    UILabel *label2;
-    UILabel *label3;
-    UILabel *label4;
-    UILabel *label5;
+    IBOutlet UILabel *label;
+    IBOutlet UILabel *label1;
+    IBOutlet UILabel *label2;
+    IBOutlet UILabel *label3;
+    IBOutlet UILabel *label4;
+    IBOutlet UILabel *label5;
     UIDatePicker *datepicker;
     int counter1;
     int counter2;
